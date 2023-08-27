@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .Card {
+      @apply w-48 h-64 shadow-lg rounded-lg flex-none transform transition-all hover:translate-y-4 hover:shadow-lg;
+    }
+    .CartTitle{
+      @apply text-blanco font-semibold text-2xl px-8 pt-8 ;
+    }
+    .CartSubTitle{
+      @apply text-blanco  text-base  pl-8 mr-24  lg:text-lg;
+    }
+  }
